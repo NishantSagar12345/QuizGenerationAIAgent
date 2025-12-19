@@ -22,7 +22,8 @@ def main():
         st.session_state.rerun_trigger = False
         
 
-    st.title("Study Buddy AI NEW NEW NEW NEW")
+    st.title("Quiz Generation Using Agentic AI")
+    st.subheader("Made by Nishant powered by Openai GPTOSS120B")
 
     st.sidebar.header("Quiz Settings")
 
@@ -32,7 +33,7 @@ def main():
         index=0
     )
 
-    topic = st.sidebar.text_input("Ennter Topic" , placeholder="Indian History, geography")
+    topic = st.sidebar.text_input("Enter Topic" , placeholder="History, geography")
 
     difficulty = st.sidebar.selectbox(
         "Dificulty Level",
